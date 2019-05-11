@@ -4,7 +4,8 @@
   "description": "Mouse Tracker API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/nodemon app.js --exec babel-node --"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
     "babel-preset-es2015": "^6.24.1",
     "express": "^4.16.4",
     "themeparks": "^4.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
   }
 }
