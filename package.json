@@ -1,0 +1,15 @@
+{
+  "name": "mouse-tracker-api",
+  "version": "1.0.0",
+  "description": "Mouse Tracker API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "mouse-tracker-api"
+  },
+  "author": "Niall Curtis",
+  "license": "ISC"
+}
